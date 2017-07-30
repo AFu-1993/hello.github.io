@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 	<meta charset="UTF-8">
 	<title>hello world</title>
+	<link rel="stylesheet" type="text/css" href="./css/hello.css">
 </head>
 <body>
-	<h1>hi!</h1>
+	<div class="wrap">
+		<ul>
+			<li>111</li>
+			<li>222</li>
+		</ul>
+		<div class="content">
+			<!-- 滚动条 -->
+			<div class="slidebar">
+				<div class="slideblock"></div>
+			</div>
+			<section>
+				<p>Vue.js（读音 /vjuː/，类似于 view） 是一套构建用户界面的渐进式框架。与其他重量级框架不同的是，Vue 采用自底向上增量开发的设计。Vue 的核心库只关注视图层，它不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与单文件组件和 Vue 生态系统支持的库结合使用时，Vue 也完全能够为复杂的单页应用程序提供驱动。</p>
+				<p>尝试 Vue.js 最简单的方法是使用 JSFiddle Hello World 例子。你可以在浏览器新标签页中打开它，跟着例子学习一些基础用法。或者你也可以创建一个 .html 文件，然后通过如下方式引入 Vue：</p>
+				<p>你可以查看安装教程来了解其他安装 Vue 的选项。请注意我们不推荐新手直接使用 vue-cli，尤其是对 Node.js 构建工具不够了解的同学。</p>
+				<p>我们已经生成了我们的第一个 Vue 应用！看起来这跟单单渲染一个字符串模板非常类似，但是 Vue 在背后做了大量工作。现在数据和 DOM 已经被绑定在一起，所有的元素都是响应式的。我们如何知道？打开你的浏览器的控制台（就在这个页面打开），并修改 app.message，你将看到上例相应地更新。</p>
+			</section>
+		</div>
+	</div>
+	<script type="text/javascript" src='js/lib/require.js' data-main='js/app'></script>
 </body>
 </html>
